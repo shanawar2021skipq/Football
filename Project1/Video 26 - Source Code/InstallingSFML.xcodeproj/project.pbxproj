@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA21091B1B7AABFD009AAEAE /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA21091A1B7AABFD009AAEAE /* ResourcePath.mm */; };
+		CA21091E1B7AABFD009AAEAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA21091D1B7AABFD009AAEAE /* main.cpp */; };
+		CA2109211B7AABFD009AAEAE /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2109201B7AABFD009AAEAE /* cute_image.jpg */; };
+		CA2109231B7AABFD009AAEAE /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CA2109221B7AABFD009AAEAE /* nice_music.ogg */; };
+		CA2109251B7AABFD009AAEAE /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA2109241B7AABFD009AAEAE /* sansation.ttf */; };
+		CA2109271B7AABFD009AAEAE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2109261B7AABFD009AAEAE /* icon.png */; };
+		CA21092E1B7AB652009AAEAE /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA21092D1B7AB652009AAEAE /* lion.jpg */; };
+		CA2109301B7ABCA4009AAEAE /* spriteWalk.png in Resources */ = {isa = PBXBuildFile; fileRef = CA21092F1B7ABCA4009AAEAE /* spriteWalk.png */; };
+		CA2109391B7AC764009AAEAE /* entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2109371B7AC764009AAEAE /* entity.cpp */; };
+		CA21093C1B7AC7D2009AAEAE /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA21093A1B7AC7D2009AAEAE /* player.cpp */; };
+		CA3963481B7EC42500D456DC /* Crate_001.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3963471B7EC42500D456DC /* Crate_001.png */; };
+		CA39634A1B7EC6BF00D456DC /* Back_002.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3963491B7EC6BF00D456DC /* Back_002.png */; };
+		CA39634E1B7ECADF00D456DC /* weapons.png in Resources */ = {isa = PBXBuildFile; fileRef = CA39634D1B7ECADF00D456DC /* weapons.png */; };
+		CA3963501B7ECE8700D456DC /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = CA39634F1B7ECE8700D456DC /* coin.png */; };
+		CA3963521B7EDE7D00D456DC /* enemySprite.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3963511B7EDE7D00D456DC /* enemySprite.png */; };
+		CA3963541B7EE7E200D456DC /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3963531B7EE7E200D456DC /* tile.png */; };
+		CA3963561B7EFEB400D456DC /* potion.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3963551B7EFEB400D456DC /* potion.png */; };
+		CA3963581B7F27E300D456DC /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3963571B7F27E300D456DC /* food.png */; };
+		CA70607F1B7B5CB000E6F13A /* wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA70607D1B7B5CB000E6F13A /* wall.cpp */; };
+		CA7060811B7C076700E6F13A /* powerup.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7060801B7C076700E6F13A /* powerup.png */; };
+		CABD58EC1B7C97AD0040559D /* shot.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CABD58EB1B7C97AD0040559D /* shot.ogg */; };
+		CABD58EE1B7C97B50040559D /* collision.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CABD58ED1B7C97B50040559D /* collision.ogg */; };
+		CABD58F01B7C995B0040559D /* music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CABD58EF1B7C995B0040559D /* music.ogg */; };
+		CABD58F21B7C9A9E0040559D /* playerhit.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CABD58F11B7C9A9E0040559D /* playerhit.ogg */; };
+		CABD58F41B7C9C200040559D /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = CABD58F31B7C9C200040559D /* coin.wav */; };
+		CABD58F61B7C9CA60040559D /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CABD58F51B7C9CA60040559D /* coin.mp3 */; };
+		CABD58F81B7CBA9C0040559D /* blood.gif in Resources */ = {isa = PBXBuildFile; fileRef = CABD58F71B7CBA9C0040559D /* blood.gif */; };
+		CAE333E71B7AF89F00299126 /* projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAE333E51B7AF89F00299126 /* projectile.cpp */; };
+		CAE333ED1B7B021500299126 /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAE333EB1B7B021500299126 /* enemy.cpp */; };
+		CAE333EF1B7B03D000299126 /* enemySpriteSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE333EE1B7B03D000299126 /* enemySpriteSheet.png */; };
+		CAE333F21B7B075500299126 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAE333F01B7B075500299126 /* random.cpp */; };
+		CAE333F51B7B2A1C00299126 /* textDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAE333F31B7B2A1C00299126 /* textDisplay.cpp */; };
+		CAE333F71B7B32F500299126 /* coin.gif in Resources */ = {isa = PBXBuildFile; fileRef = CAE333F61B7B32F500299126 /* coin.gif */; };
+		CAE333FA1B7B331300299126 /* pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAE333F81B7B331300299126 /* pickup.cpp */; };
+		CAE333FC1B7B375400299126 /* pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAE333FB1B7B375400299126 /* pixel.ttf */; };
+		CAE333FE1B7B38A800299126 /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE333FD1B7B38A800299126 /* fireball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA2109151B7AABFD009AAEAE /* InstallingSFML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstallingSFML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2109191B7AABFD009AAEAE /* InstallingSFML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstallingSFML-Info.plist"; sourceTree = "<group>"; };
+		CA21091A1B7AABFD009AAEAE /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		CA21091C1B7AABFD009AAEAE /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		CA21091D1B7AABFD009AAEAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CA2109201B7AABFD009AAEAE /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		CA2109221B7AABFD009AAEAE /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		CA2109241B7AABFD009AAEAE /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		CA2109261B7AABFD009AAEAE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CA21092D1B7AB652009AAEAE /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
+		CA21092F1B7ABCA4009AAEAE /* spriteWalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spriteWalk.png; sourceTree = "<group>"; };
+		CA2109371B7AC764009AAEAE /* entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = entity.cpp; sourceTree = "<group>"; };
+		CA2109381B7AC764009AAEAE /* entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entity.h; sourceTree = "<group>"; };
+		CA21093A1B7AC7D2009AAEAE /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		CA21093B1B7AC7D2009AAEAE /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		CA3963471B7EC42500D456DC /* Crate_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crate_001.png; sourceTree = "<group>"; };
+		CA3963491B7EC6BF00D456DC /* Back_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_002.png; sourceTree = "<group>"; };
+		CA39634D1B7ECADF00D456DC /* weapons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weapons.png; sourceTree = "<group>"; };
+		CA39634F1B7ECE8700D456DC /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
+		CA3963511B7EDE7D00D456DC /* enemySprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemySprite.png; sourceTree = "<group>"; };
+		CA3963531B7EE7E200D456DC /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		CA3963551B7EFEB400D456DC /* potion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potion.png; sourceTree = "<group>"; };
+		CA3963571B7F27E300D456DC /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		CA70607D1B7B5CB000E6F13A /* wall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wall.cpp; sourceTree = "<group>"; };
+		CA70607E1B7B5CB000E6F13A /* wall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wall.h; sourceTree = "<group>"; };
+		CA7060801B7C076700E6F13A /* powerup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerup.png; sourceTree = "<group>"; };
+		CABD58EB1B7C97AD0040559D /* shot.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = shot.ogg; sourceTree = "<group>"; };
+		CABD58ED1B7C97B50040559D /* collision.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = collision.ogg; sourceTree = "<group>"; };
+		CABD58EF1B7C995B0040559D /* music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.ogg; sourceTree = "<group>"; };
+		CABD58F11B7C9A9E0040559D /* playerhit.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = playerhit.ogg; sourceTree = "<group>"; };
+		CABD58F31B7C9C200040559D /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		CABD58F51B7C9CA60040559D /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		CABD58F71B7CBA9C0040559D /* blood.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blood.gif; sourceTree = "<group>"; };
+		CAE333E51B7AF89F00299126 /* projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = projectile.cpp; sourceTree = "<group>"; };
+		CAE333E61B7AF89F00299126 /* projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = projectile.h; sourceTree = "<group>"; };
+		CAE333EB1B7B021500299126 /* enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cpp; sourceTree = "<group>"; };
+		CAE333EC1B7B021500299126 /* enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemy.h; sourceTree = "<group>"; };
+		CAE333EE1B7B03D000299126 /* enemySpriteSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemySpriteSheet.png; sourceTree = "<group>"; };
+		CAE333F01B7B075500299126 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		CAE333F11B7B075500299126 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		CAE333F31B7B2A1C00299126 /* textDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = textDisplay.cpp; sourceTree = "<group>"; };
+		CAE333F41B7B2A1C00299126 /* textDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textDisplay.h; sourceTree = "<group>"; };
+		CAE333F61B7B32F500299126 /* coin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = coin.gif; sourceTree = "<group>"; };
+		CAE333F81B7B331300299126 /* pickup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pickup.cpp; sourceTree = "<group>"; };
+		CAE333F91B7B331300299126 /* pickup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pickup.h; sourceTree = "<group>"; };
+		CAE333FB1B7B375400299126 /* pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixel.ttf; sourceTree = "<group>"; };
+		CAE333FD1B7B38A800299126 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA2109111B7AABFD009AAEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA21090B1B7AABFD009AAEAE = {
+			isa = PBXGroup;
+			children = (
+				CA2109171B7AABFD009AAEAE /* InstallingSFML */,
+				CA2109161B7AABFD009AAEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA2109161B7AABFD009AAEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA2109151B7AABFD009AAEAE /* InstallingSFML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA2109171B7AABFD009AAEAE /* InstallingSFML */ = {
+			isa = PBXGroup;
+			children = (
+				CA21091A1B7AABFD009AAEAE /* ResourcePath.mm */,
+				CA21091C1B7AABFD009AAEAE /* ResourcePath.hpp */,
+				CA21091D1B7AABFD009AAEAE /* main.cpp */,
+				CA70607D1B7B5CB000E6F13A /* wall.cpp */,
+				CA70607E1B7B5CB000E6F13A /* wall.h */,
+				CAE333F31B7B2A1C00299126 /* textDisplay.cpp */,
+				CAE333F41B7B2A1C00299126 /* textDisplay.h */,
+				CAE333F01B7B075500299126 /* random.cpp */,
+				CAE333F11B7B075500299126 /* random.h */,
+				CAE333E51B7AF89F00299126 /* projectile.cpp */,
+				CAE333E61B7AF89F00299126 /* projectile.h */,
+				CAE333F81B7B331300299126 /* pickup.cpp */,
+				CAE333F91B7B331300299126 /* pickup.h */,
+				CA2109371B7AC764009AAEAE /* entity.cpp */,
+				CA2109381B7AC764009AAEAE /* entity.h */,
+				CA21093A1B7AC7D2009AAEAE /* player.cpp */,
+				CAE333EB1B7B021500299126 /* enemy.cpp */,
+				CAE333EC1B7B021500299126 /* enemy.h */,
+				CA21093B1B7AC7D2009AAEAE /* player.h */,
+				CA21091F1B7AABFD009AAEAE /* Resources */,
+				CA2109181B7AABFD009AAEAE /* Supporting Files */,
+			);
+			path = InstallingSFML;
+			sourceTree = "<group>";
+		};
+		CA2109181B7AABFD009AAEAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA2109191B7AABFD009AAEAE /* InstallingSFML-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA21091F1B7AABFD009AAEAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA21092D1B7AB652009AAEAE /* lion.jpg */,
+				CAE333F61B7B32F500299126 /* coin.gif */,
+				CA3963531B7EE7E200D456DC /* tile.png */,
+				CA3963471B7EC42500D456DC /* Crate_001.png */,
+				CA3963551B7EFEB400D456DC /* potion.png */,
+				CA3963571B7F27E300D456DC /* food.png */,
+				CA3963511B7EDE7D00D456DC /* enemySprite.png */,
+				CAE333FB1B7B375400299126 /* pixel.ttf */,
+				CA3963491B7EC6BF00D456DC /* Back_002.png */,
+				CABD58F11B7C9A9E0040559D /* playerhit.ogg */,
+				CABD58F31B7C9C200040559D /* coin.wav */,
+				CA39634F1B7ECE8700D456DC /* coin.png */,
+				CABD58ED1B7C97B50040559D /* collision.ogg */,
+				CA39634D1B7ECADF00D456DC /* weapons.png */,
+				CABD58F71B7CBA9C0040559D /* blood.gif */,
+				CABD58EF1B7C995B0040559D /* music.ogg */,
+				CABD58F51B7C9CA60040559D /* coin.mp3 */,
+				CABD58EB1B7C97AD0040559D /* shot.ogg */,
+				CA2109201B7AABFD009AAEAE /* cute_image.jpg */,
+				CA2109221B7AABFD009AAEAE /* nice_music.ogg */,
+				CAE333FD1B7B38A800299126 /* fireball.png */,
+				CA7060801B7C076700E6F13A /* powerup.png */,
+				CAE333EE1B7B03D000299126 /* enemySpriteSheet.png */,
+				CA2109241B7AABFD009AAEAE /* sansation.ttf */,
+				CA21092F1B7ABCA4009AAEAE /* spriteWalk.png */,
+				CA2109261B7AABFD009AAEAE /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA2109141B7AABFD009AAEAE /* InstallingSFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA21092A1B7AABFD009AAEAE /* Build configuration list for PBXNativeTarget "InstallingSFML" */;
+			buildPhases = (
+				CA2109101B7AABFD009AAEAE /* Sources */,
+				CA2109111B7AABFD009AAEAE /* Frameworks */,
+				CA2109121B7AABFD009AAEAE /* Resources */,
+				CA2109131B7AABFD009AAEAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstallingSFML;
+			productName = InstallingSFML;
+			productReference = CA2109151B7AABFD009AAEAE /* InstallingSFML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA21090C1B7AABFD009AAEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Blank Blank";
+				TargetAttributes = {
+					CA2109141B7AABFD009AAEAE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CA21090F1B7AABFD009AAEAE /* Build configuration list for PBXProject "InstallingSFML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA21090B1B7AABFD009AAEAE;
+			productRefGroup = CA2109161B7AABFD009AAEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA2109141B7AABFD009AAEAE /* InstallingSFML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA2109121B7AABFD009AAEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3963521B7EDE7D00D456DC /* enemySprite.png in Resources */,
+				CA2109271B7AABFD009AAEAE /* icon.png in Resources */,
+				CA39634A1B7EC6BF00D456DC /* Back_002.png in Resources */,
+				CA2109301B7ABCA4009AAEAE /* spriteWalk.png in Resources */,
+				CAE333FE1B7B38A800299126 /* fireball.png in Resources */,
+				CA7060811B7C076700E6F13A /* powerup.png in Resources */,
+				CA21092E1B7AB652009AAEAE /* lion.jpg in Resources */,
+				CABD58EC1B7C97AD0040559D /* shot.ogg in Resources */,
+				CA2109251B7AABFD009AAEAE /* sansation.ttf in Resources */,
+				CABD58F21B7C9A9E0040559D /* playerhit.ogg in Resources */,
+				CABD58F61B7C9CA60040559D /* coin.mp3 in Resources */,
+				CA3963581B7F27E300D456DC /* food.png in Resources */,
+				CABD58F01B7C995B0040559D /* music.ogg in Resources */,
+				CABD58EE1B7C97B50040559D /* collision.ogg in Resources */,
+				CA3963501B7ECE8700D456DC /* coin.png in Resources */,
+				CABD58F81B7CBA9C0040559D /* blood.gif in Resources */,
+				CAE333EF1B7B03D000299126 /* enemySpriteSheet.png in Resources */,
+				CAE333F71B7B32F500299126 /* coin.gif in Resources */,
+				CA3963541B7EE7E200D456DC /* tile.png in Resources */,
+				CAE333FC1B7B375400299126 /* pixel.ttf in Resources */,
+				CABD58F41B7C9C200040559D /* coin.wav in Resources */,
+				CA2109231B7AABFD009AAEAE /* nice_music.ogg in Resources */,
+				CA3963561B7EFEB400D456DC /* potion.png in Resources */,
+				CA2109211B7AABFD009AAEAE /* cute_image.jpg in Resources */,
+				CA3963481B7EC42500D456DC /* Crate_001.png in Resources */,
+				CA39634E1B7ECADF00D456DC /* weapons.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA2109131B7AABFD009AAEAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA2109101B7AABFD009AAEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA21093C1B7AC7D2009AAEAE /* player.cpp in Sources */,
+				CA21091E1B7AABFD009AAEAE /* main.cpp in Sources */,
+				CAE333F21B7B075500299126 /* random.cpp in Sources */,
+				CA70607F1B7B5CB000E6F13A /* wall.cpp in Sources */,
+				CAE333F51B7B2A1C00299126 /* textDisplay.cpp in Sources */,
+				CAE333ED1B7B021500299126 /* enemy.cpp in Sources */,
+				CAE333E71B7AF89F00299126 /* projectile.cpp in Sources */,
+				CAE333FA1B7B331300299126 /* pickup.cpp in Sources */,
+				CA2109391B7AC764009AAEAE /* entity.cpp in Sources */,
+				CA21091B1B7AABFD009AAEAE /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA2109281B7AABFD009AAEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		CA2109291B7AABFD009AAEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		CA21092B1B7AABFD009AAEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "InstallingSFML/InstallingSFML-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA21092C1B7AABFD009AAEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "InstallingSFML/InstallingSFML-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA21090F1B7AABFD009AAEAE /* Build configuration list for PBXProject "InstallingSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2109281B7AABFD009AAEAE /* Debug */,
+				CA2109291B7AABFD009AAEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA21092A1B7AABFD009AAEAE /* Build configuration list for PBXNativeTarget "InstallingSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA21092B1B7AABFD009AAEAE /* Debug */,
+				CA21092C1B7AABFD009AAEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA21090C1B7AABFD009AAEAE /* Project object */;
+}
